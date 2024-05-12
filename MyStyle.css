@@ -1,0 +1,304 @@
+body{
+  margin:0;
+  background: gray;
+  height: 20px;
+}
+.mainbar{
+  background: black;
+  height: 0px;
+  width: auto;
+}
+.photo{
+  width: 100%;
+}
+.photo1 img{
+  border-radius: 500px;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  margin-left: 40px;
+  bottom: 180px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+}
+.photo2 img{
+ position: relative;
+ height: 35px;
+ width: 35px;
+ margin-left: 48%;
+ bottom: 420px;
+}
+.photo2 h3{
+  position: relative;
+  margin-left: 52%;
+  bottom: 470px;
+}
+.photo3 img{
+ position: relative;
+ height: 35px;
+ width: 50px;
+ margin-left: 70%;
+ bottom: 518px;
+}
+.photo3 h3{
+  position: relative;
+  margin-left: 76%;
+  bottom: 574px;
+}
+*{
+  text-decoration: none;
+}
+.navbar{
+  background: dimgray;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name{
+  font-size: 35px;
+  font-weight: 300;
+  color: white ;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+a{
+  color: white;
+  margin: 10px;
+}
+ a:hover{
+  background: black;
+  height: 100px;
+  width: 100px;
+}
+h1{
+  position: relative;
+  bottom: 400px;
+  font-size: 40px;
+  font-style: bold;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 48%;
+  text-shadow: 10px 10px 10px #000;
+}
+h2{
+  position: relative;
+  bottom: 420px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 48%;
+}
+.bar{
+  position: relative;
+  background: dimgray;
+  width: 80%;
+  height: 500px;
+  margin-left: 100px;
+  border-radius: 10px;
+  bottom: 500px;
+  box-shadow: 10px 10px 10px;
+}
+.bar h2{
+  position: relative;
+  bottom: -25px;
+  margin-left: 40%;
+  font-size: 38px;
+}
+.bar p{
+  font-size: 33px;
+  margin-left: 10px;
+  color: white;
+}
+.bord{
+  background: black;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+
+/*Favorite*/
+.photof1 img{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  bottom: -40px;
+  margin-left: 20px;
+  box-shadow: 10px 10px 10px;
+}
+.photof1 h1{
+  position: relative;
+  bottom: 360px;
+  font-size: 40px;
+  font-style: bold;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 55%;
+  text-shadow: 10px 10px 10px #000;
+}
+.photof1 h2{
+  bottom: 380px;
+  margin-left: 55%;
+}
+.barf{
+  position: relative;
+  background: black;
+  width: 100%;
+  height: 200px
+}
+.barf2{
+  position: relative;
+  background: black;
+  width: 400px;
+  height: 450px;
+  bottom: 300px;
+  float: right;
+  margin-right: 50px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px;
+}
+.barf2 h2{
+  color: white;
+  position: relative;
+  top: 20px;
+  margin-left: 100px;
+}
+.barf2 h3{
+  color: white;
+  margin-left: 5px;
+}
+.barf3{
+  position: relative;
+  background: black;
+  width: 400px;
+  height: 450px;
+  bottom: 300px;
+  margin-left: 50px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px;
+}
+.barf3 h2{
+  color: white;
+  position: relative;
+  top: 20px;
+  margin-left: 100px;
+}
+.barf3 h3{
+  color: white;
+  margin-left: 5px;
+}
+.textf{
+  color: white;
+  top: 40%;
+}
+.foodpt img{
+  margin-left: 80px;
+  height: 380px;
+  width: 360px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+  position: relative;
+}
+.foodpt h3{
+  color: white;
+  margin-left: 120px;
+}
+.foodpt1 img{
+  position: relative;
+  float: right;
+  height: 380px;
+  width: 360px;
+  border-radius: 20px;
+  margin-right: 8%;
+  bottom: 446px;
+  box-shadow: 10px 10px 10px;
+}
+.foodpt1 h3{
+  position: relative;
+  margin-left: 60%;
+  color: white;
+  bottom: 425px;
+}
+/*Hobbies*/
+.box{
+  position: relative;
+  background: black;
+  width: 100%;
+  height: 450px;
+  margin-top: 20px;
+}
+.box h1{
+  position: relative;
+  bottom: 0px;
+  text-align: center;
+  margin-left: 0px;
+}
+.box2{
+  position: relative;
+  background: black;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.box2 h1{
+  position: relative;
+  bottom: -50px;
+  margin-left: 30%;
+}
+.container .music-container{
+  display: flex;
+}
+.container .music-container .box{
+  height: 16rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  background: #f9f9f9;
+  overflow: hidden;
+}
+.container .music-container .box.image{
+  height: 100%;
+  width: 25%;
+}
+.container .music-container .box .image img{
+  height: 100%;
+  width: 100%;
+}
+.container .music-container .box .music{
+  width: 75%;
+}
+.container .music-container .box .music audio{
+  width: 100%;
+  outline: none;
+}
+/*Gallery*/
+.container-ph{
+  position: relative;
+  background: black;
+  height: 300px;
+  width: 300px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 20px;
+  box-shadow: 10px 10px 10px;
+}
+.container-ph .ph-container{
+  position: relative;
+  background: gray;
+  height: 90%;
+  width: 90%;
+  margin-left: 15px;
+  top: 15px;
+}
+.container-ph .ph-container .ph img{
+  height: 270px;
+  width: 100%;
+}
+
